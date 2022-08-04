@@ -22,6 +22,7 @@ import com.inetbanking.utilities.ReadConfig;
 
 public class BaseClass {
 
+	// Read config File
 	ReadConfig readconfig=new ReadConfig();
 	
 	public String baseURL=readconfig.getApplicationURL();
